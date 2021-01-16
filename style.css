@@ -13,4 +13,8 @@
 
 .container {
   background-color: var(--white);
+  max-width: 95%;
+  margin: 4em auto;
+  padding: 2em 0;
+  text-align: center;
 }
