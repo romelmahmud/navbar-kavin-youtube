@@ -15,7 +15,8 @@
 
 .container {
   background-color: var(--white);
-  max-width: 95%;
+  width: 95%;
+  max-width: 900px;
   margin: 4em auto;
   padding: 2em 0;
   text-align: center;
@@ -50,7 +51,7 @@ p.subtitle {
 }
 
 .navbar ul li {
-  margin: 0 1.5em;
+  margin-left: 2em;
   list-style: none;
   font-family: "Ubuntu", sans-serif;
   font-size: 1rem;
@@ -74,4 +75,27 @@ p.subtitle {
 
 .navbar ul li a.current-page:hover {
   color: var(--grey);
+}
+
+/*.container-2 */
+
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+/* adding media qurey */
+
+@media (max-width: 665px) {
+  .container-2 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container-2 .navbar ul {
+    flex-direction: column;
+  }
+  .container-2 .navbar ul li {
+    margin-bottom: 2em;
+  }
 }
