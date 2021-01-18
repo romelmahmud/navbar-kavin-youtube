@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,4 +19,17 @@
   margin: 4em auto;
   padding: 2em 0;
   text-align: center;
+}
+
+p.title {
+  font-family: "Lora", serif;
+  font-size: 3.375rem;
+  color: var(--royal--blue);
+}
+p.subtitle {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--blue);
+  
 }
