@@ -25,13 +25,14 @@
   padding-bottom: 1em;
 }
 
-p.title {
+h1 {
   font-family: "Lora", serif;
-  font-size: 3.375rem;
+  font-size: 2rem;
+  font-weight: 400;
   color: var(--royal--blue);
 }
 p.subtitle {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 700;
   font-family: "Ubuntu", sans-serif;
   color: var(--blue);
@@ -59,9 +60,18 @@ p.subtitle {
 .navbar ul li a {
   text-decoration: none;
   color: var(--grey);
+  padding-bottom: 0.25em;
 }
 
-.active {
-  padding-bottom: 0.25em;
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  color: var(--blue);
+}
+
+.current-page {
   border-bottom: 2px solid var(--grey);
+}
+
+.navbar ul li a.current-page:hover {
+  color: var(--grey);
 }
