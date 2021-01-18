@@ -21,6 +21,10 @@
   text-align: center;
 }
 
+.logo {
+  padding-bottom: 1em;
+}
+
 p.title {
   font-family: "Lora", serif;
   font-size: 3.375rem;
@@ -31,5 +35,33 @@ p.subtitle {
   font-weight: 700;
   font-family: "Ubuntu", sans-serif;
   color: var(--blue);
-  
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.navbar {
+  margin-top: 0.75em;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 1.5em;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--grey);
+}
+
+.active {
+  padding-bottom: 0.25em;
+  border-bottom: 2px solid var(--grey);
 }
